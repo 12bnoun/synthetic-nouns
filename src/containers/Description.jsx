@@ -61,7 +61,7 @@ class Description extends React.Component {
             <LogoImg src={logo} />
           </Logo>
           <br/>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;Nouns are pseudo-randomly generated using the previous block hash as the seed to determine traits. Synthetic Nouns are pseudo-randomly generated using your Ethereum wallet address as the seed. Each wallet can only generate one Synthetic Noun, and there are over five million combinations.</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;Nouns are pseudo-randomly generated using the previous block hash as the seed to determine traits. Synthetic Nouns are pseudo-randomly generated using your Ethereum wallet address as the seed. Each wallet can only generate one Synthetic Noun (Virtual access NFT), and there are over five million combinations.</div>
           <br/>
           <div>Are you a Shark, Pizza, or Lipstick? "Roll wallet" to find out.</div>
         </Information>
