@@ -60,11 +60,11 @@ class Description extends React.Component {
             <LogoImg src={logo} />
           </Logo>
           <br/>
-          <div>Synthetic Nouns are virtual Noun pfp uniquely generated on-chain for every wallet.</div>
+          <div>Nouns are pseudo-randomly generated using the previous block hash as the seed to determine traits.</div>
           <br/>
-          <div>Wallet address acts as a seed to Nouns trait generator contract by NounsDAO. Thus, synthetic Noun combinations generated are unique to the wallet owner.</div>
+          <div>Synthetic Nouns are virtual Noun pfp uniquely generated on-chain using the NounsDAO seeder algorithm but with your Ethereum wallet address acting as the seed. Each wallet can only generate one Synthetic Noun, and there are about five million combinations to explore.</div>
           <br/>
-          <div>Are you a shark? A pizza? or lipstick? Time to find out.</div>
+          <div>Are you a Shark, Pizza, or Lipstick? Click "Roll Wallet" to find out.</div>
         </Information>
         <Canvas width="700" height="700">
         </Canvas>
