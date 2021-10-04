@@ -131,6 +131,8 @@ class RollWallet extends React.Component {
       return;
     }
 
+    console.log(ethereum);
+
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     await provider.send("eth_requestAccounts", []);
     const signer = provider.getSigner();
