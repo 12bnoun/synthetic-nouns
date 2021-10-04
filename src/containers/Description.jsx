@@ -10,10 +10,11 @@ const Information = styled.div`
   width: 80vw;
   margin: 20px auto;
   margin-bottom: 50px;
+  line-height: 1.3;
 `;
 
 const LogoImg = styled.img`
-  height: 30px;
+  height: 34px;
 
   @media (max-width: 768px) {
     height: 25px;
@@ -60,7 +61,7 @@ class Description extends React.Component {
             <LogoImg src={logo} />
           </Logo>
           <br/>
-          <div>Nouns are pseudo-randomly generated using the previous block hash as the seed to determine traits. Synthetic Nouns are pseudo-randomly generated using your Ethereum wallet address as the seed. Each wallet can only generate one Synthetic Noun, and there are over five million combinations.</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;Nouns are pseudo-randomly generated using the previous block hash as the seed to determine traits. Synthetic Nouns are pseudo-randomly generated using your Ethereum wallet address as the seed. Each wallet can only generate one Synthetic Noun, and there are over five million combinations.</div>
           <br/>
           <div>Are you a Shark, Pizza, or Lipstick? "Roll Wallet" to find out.</div>
         </Information>
