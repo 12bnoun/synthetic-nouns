@@ -9,6 +9,10 @@ const BannerText = styled.div`
   align-items: center;
 `;
 
+const Github = styled.a`
+  margin-left: auto;
+`;
+
 class Banner extends React.Component {
 
   constructor(props) {
@@ -24,6 +28,7 @@ class Banner extends React.Component {
           href="https://twitter.com/intent/tweet?text=What%20noun%20are%20you%3F%20Time%20to%20find%20out."
           data-size="large">
         </a>
+        <Github href="https://github.com/12bnoun/synthetic-nouns" target="_blank">Github</Github>
         </BannerText>
       </div>
     )
