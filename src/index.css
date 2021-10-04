@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: papayawhip;
+  font-family: 'BedsteadRegular';
+  font-weight: normal;
+  font-style: normal;
+  /*font-family: '0xA000Regular';
+  font-weight: normal;
+  font-style: normal;*/
 }
 
 code {

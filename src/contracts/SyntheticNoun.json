@@ -1,0 +1,149 @@
+[
+    {
+      "inputs": [
+        {
+          "internalType": "contract ICancelDescriptor",
+          "name": "_descriptor",
+          "type": "address"
+        },
+        {
+          "internalType": "contract ICancelSeeder",
+          "name": "_seeder",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint48",
+              "name": "background",
+              "type": "uint48"
+            },
+            {
+              "internalType": "uint48",
+              "name": "body",
+              "type": "uint48"
+            },
+            {
+              "internalType": "uint48",
+              "name": "accessory",
+              "type": "uint48"
+            },
+            {
+              "internalType": "uint48",
+              "name": "head",
+              "type": "uint48"
+            },
+            {
+              "internalType": "uint48",
+              "name": "glasses",
+              "type": "uint48"
+            }
+          ],
+          "indexed": false,
+          "internalType": "struct ICancelSeeder.Seed",
+          "name": "walletSeed",
+          "type": "tuple"
+        }
+      ],
+      "name": "WalletSeed",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "descriptor",
+      "outputs": [
+        {
+          "internalType": "contract ICancelDescriptor",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "wallet",
+          "type": "address"
+        }
+      ],
+      "name": "generateSvgImage",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "wallet",
+          "type": "address"
+        }
+      ],
+      "name": "getSeed",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint48",
+              "name": "background",
+              "type": "uint48"
+            },
+            {
+              "internalType": "uint48",
+              "name": "body",
+              "type": "uint48"
+            },
+            {
+              "internalType": "uint48",
+              "name": "accessory",
+              "type": "uint48"
+            },
+            {
+              "internalType": "uint48",
+              "name": "head",
+              "type": "uint48"
+            },
+            {
+              "internalType": "uint48",
+              "name": "glasses",
+              "type": "uint48"
+            }
+          ],
+          "internalType": "struct ICancelSeeder.Seed",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "seeder",
+      "outputs": [
+        {
+          "internalType": "contract ICancelSeeder",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
